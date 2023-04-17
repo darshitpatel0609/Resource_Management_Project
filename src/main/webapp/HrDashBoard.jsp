@@ -28,17 +28,19 @@ button {
 </head>
 <body>
 	<div class="container">
-		<h1><u>HR DashBoard</u></h1>
+		<h1>
+			<u>HR DashBoard</u>
+		</h1>
 		<!-- Bootstrap Button Classes -->
 		<div class="one" style="width: 100%;">
 			<button type="button" class="btn btn-success" style="width: 25%;">
 				<a href="AddNewResource.jsp">AddNewResource</a>
 			</button>
 			<button type="button" class="btn btn-success" style="width: 25%;">
-				 <a href="">ViewResource</a>
+				<a href="ResourceListController">ViewResource</a>
 			</button>
 			<button type="button" class="btn btn-success" style="width: 25%;">
-				<a href="">SearchResources</a>
+				<a href="SearchResource.jsp">SearchResources</a>
 			</button>
 		</div>
 	</div>

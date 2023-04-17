@@ -19,7 +19,11 @@
 				<li><a href="HRLogin.jsp" class="a">HR Login</a></li>
 	</div>
 	</ul>
-		<p><center><b>This is Human Resourse Project For Hiering Employee</b></center></p>
+	<p>
+	<center>
+		<b>This is Human Resourse Project For Hiering Employee</b>
+	</center>
+	</p>
 	</nav>
 </body>
 </html>

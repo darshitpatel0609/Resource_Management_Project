@@ -19,12 +19,12 @@
 		</center>
 	</h1>
 	<form action="EditHrController" method="post">
-	<div class="m-4">
+		<div class="m-4">
 			<div class="row mb-3">
 				<label for="hrid" class="col-sm-2 col-form-label"><b>HR
 						Id:</b></label>
 				<div class="col-sm-10">
-					<input type ="hidden" name="hrid" value="${param.id}"
+					<input type="hidden" name="hrid" value="${param.id}"
 						class="form-control" id="hrid" name="hrid" placeholder="HR Id">
 				</div>
 			</div>
@@ -60,9 +60,8 @@
 				<label for="hrmobno" class="col-sm-2 col-form-label"><b>Enter
 						HR Mobile No:</b></label>
 				<div class="col-sm-10">
-					<input type="text" class="form-control" id="hrmobno"
-						name="hrmobno" value="${hrBean.hrmobno}"
-						placeholder="Enter HR Mobile Number">
+					<input type="text" class="form-control" id="hrmobno" name="hrmobno"
+						value="${hrBean.hrmobno}" placeholder="Enter HR Mobile Number">
 				</div>
 			</div>
 			<div class="row">
@@ -70,7 +69,7 @@
 					<input type="submit" value="Update" class="btn btn-primary">
 				</div>
 			</div>
-		</form>
+	</form>
 	</div>
 </body>
 </html>

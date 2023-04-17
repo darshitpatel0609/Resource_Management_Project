@@ -13,23 +13,25 @@
 </head>
 <body>
 	<div class="m-4 p-4">
-		<div class="card" style="width: 600px;">
+		<div class="card" style="width: 650px;">
 			<div class="card-body">
 				<h3 class="card-title">
-					<u>HR Details</u>
+					<u>Resource Details</u>
 				</h3>
 				<p class="card-text">
 				<pre>
-					<h2>
-    HR Id    :- ${hrBean.id}
-    HR Name  :- ${hrBean.hrname}
-    HR Email :- ${hrBean.hremail}
-    HR Pass  :- ${hrBean.hrpassword}
-    HR Mobile No :- ${hrBean.hrmobno}
-    </h2>
-				</pre>
+		<h2>
+         ID            :- ${resourceBean.id }
+         Name          :- ${resourceBean.name }
+         Email         :- ${resourceBean.email }
+         Mobile No     :- ${resourceBean.mobno }
+         Gender        :- ${resourceBean.gender }
+         Experience    :- ${resourceBean.experience }
+         ResumeURL     :- ${resourceBean.resumeurl }
+         Qualification :- ${resourceBean.qualification }
+      </h2>
+	</pre>
 				</p>
-
 			</div>
 		</div>
 	</div>

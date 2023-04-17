@@ -28,7 +28,9 @@ button {
 </head>
 <body>
 	<div class="container">
-		<h1><u>Admin DashBoard</u></h1>
+		<h1>
+			<u>Admin DashBoard</u>
+		</h1>
 		<!-- Bootstrap Button Classes -->
 		<div class="one" style="width: 100%;">
 			<button type="button" class="btn btn-success" style="width: 25%;">
